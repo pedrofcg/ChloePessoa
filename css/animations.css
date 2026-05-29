@@ -49,14 +49,7 @@
   overflow: hidden;
 }
 
-.image-reveal::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--color-surface);
-  transform-origin: bottom;
-  transition: transform 1.8s var(--ease-out-expo);
-}
+
 
 .image-reveal.revealed::after {
   transform: scaleY(0);
