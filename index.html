@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Chloe Pessoa — Moda feminina contemporânea com design minimalista e elegância atemporal. Descubra coleções exclusivas que celebram a mulher moderna.">
+  <meta name="keywords"
+    content="moda feminina, roupas femininas, chloe pessoa, moda contemporânea, minimalista, elegante">
+  <meta name="author" content="Chloe Pessoa">
+  <meta property="og:title" content="Chloe Pessoa — Moda Feminina Contemporânea">
+  <meta property="og:description"
+    content="Elegância atemporal para a mulher moderna. Descubra nossas coleções exclusivas.">
+  <meta property="og:type" content="website">
+  <title>Chloe Pessoa — Moda Feminina Contemporânea</title>
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="page-loader">
+    <span class="page-loader__text">Chloe Pessoa</span>
+    <div class="page-loader__bar"></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor__dot"></div>
+
+  <!-- ============================
+       NAVBAR
+       ============================ -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="navbar__logo">Chloe <span>Pessoa</span></a>
+
+      <div class="navbar__nav" id="navbar-nav">
+        <a href="#catalogo" class="navbar__link">Catálogo</a>
+        <a href="#contato" class="navbar__link">Contato</a>
+      </div>
+
+      <button class="navbar__hamburger" id="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO
+       ============================ -->
+  <section class="hero" id="hero">
+    <div class="hero__background">
+      <img src="Images/Gemini_Generated_Image_mxlcnvmxlcnvmxlc.png" alt="Chloe Pessoa — Editorial de moda"
+        class="hero__image" loading="eager">
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__content">
+      <span class="hero__label">Nova Coleção 2026</span>
+      <h1 class="hero__title">
+        Chloe
+        <em>Pessoa</em>
+      </h1>
+      <p class="hero__subtitle">Elegância atemporal para a mulher contemporânea</p>
+      <div class="hero__cta">
+        <a href="#catalogo" class="btn btn--white magnetic">
+          <span class="btn__text">Ver Catálogo</span>
+          <svg class="btn__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span class="scroll-indicator__text">Scroll</span>
+      <div class="scroll-indicator__line"></div>
+    </div>
+  </section>
+
+  <!-- ============================
+       MARQUEE
+       ============================ -->
+  <div class="marquee">
+    <div class="marquee__inner">
+      <span class="marquee__item">Elegância</span>
+      <span class="marquee__item">Sofisticação</span>
+      <span class="marquee__item">Minimalismo</span>
+      <span class="marquee__item">Atemporalidade</span>
+      <span class="marquee__item">Exclusividade</span>
+      <span class="marquee__item">Elegância</span>
+      <span class="marquee__item">Sofisticação</span>
+      <span class="marquee__item">Minimalismo</span>
+      <span class="marquee__item">Atemporalidade</span>
+      <span class="marquee__item">Exclusividade</span>
+    </div>
+  </div>
+
+
+
+  <!-- ============================
+       CATALOG / PRODUCTS
+       ============================ -->
+  <section class="section" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <span class="text-label section-header__label reveal">Destaques</span>
+        <h2 class="section-header__title reveal reveal--delay-1">Catálogo</h2>
+        <div class="divider divider--center line-draw reveal reveal--delay-2"></div>
+        <p class="section-header__subtitle reveal reveal--delay-3"></p>
+      </div>
+
+      <div class="products__grid stagger-grid">
+        <!-- Product 1 -->
+        <div class="card" id="product-1">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_1.jpeg" alt="T-Shirt Oversized Brasil 10" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">T-Shirts</span>
+            <h4 class="card__title">T-Shirt Oversized Brasil 10</h4>
+            <span class="card__price">R$ 189,90</span>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="card" id="product-2">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_2.jpeg" alt="Cropped Manga Longa Brasil Blue" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">Cropped</span>
+            <h4 class="card__title">Cropped Manga Longa Brasil Blue</h4>
+            <span class="card__price">R$ 159,90</span>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="card" id="product-3">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_3.jpeg" alt="T-Shirt Oversized Brasil Yellow" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">T-Shirts</span>
+            <h4 class="card__title">T-Shirt Oversized Brasil Yellow</h4>
+            <span class="card__price">R$ 189,90</span>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="card" id="product-4">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_4.jpeg" alt="T-Shirt Oversized Brasil Royal" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">T-Shirts</span>
+            <h4 class="card__title">T-Shirt Oversized Brasil Royal</h4>
+            <span class="card__price">R$ 189,90</span>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="card" id="product-5">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_5.jpeg" alt="Top Tomara que Caia Brasil Yellow" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">Tops</span>
+            <h4 class="card__title">Top Tomara que Caia Brasil Yellow</h4>
+            <span class="card__price">R$ 129,90</span>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="card" id="product-6">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_6.jpeg" alt="Top Tomara que Caia Brasil Black" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">Tops</span>
+            <h4 class="card__title">Top Tomara que Caia Brasil Black</h4>
+            <span class="card__price">R$ 129,90</span>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="card" id="product-7">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_7.jpeg" alt="Top Tomara que Caia Brasil Noir" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">Tops</span>
+            <h4 class="card__title">Top Tomara que Caia Brasil Black</h4>
+            <span class="card__price">R$ 129,90</span>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="card" id="product-8">
+          <div class="card__image-wrapper image-reveal">
+            <img src="public/images/catalogo_8.jpeg" alt="Top Tomara que Caia Brasil Sunny" class="card__image"
+              loading="lazy">
+            <div class="card__overlay"></div>
+          </div>
+          <div class="card__content">
+            <span class="card__category">Tops</span>
+            <h4 class="card__title">Top Tomara que Caia Brasil Yellow</h4>
+            <span class="card__price">R$ 129,90</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============================
+       INSTAGRAM
+       ============================ -->
+  <section class="section" id="instagram">
+    <div class="container">
+      <div class="instagram__header">
+        <div>
+          <span class="text-label reveal">Siga-nos</span>
+          <h2 class="reveal reveal--delay-1" style="font-size: var(--text-3xl); margin-top: var(--space-sm);">Instagram
+          </h2>
+        </div>
+        <a href="https://www.instagram.com/chloepessoa/" target="_blank" rel="noopener noreferrer"
+          class="instagram__handle reveal reveal--delay-2 hover-underline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <circle cx="12" cy="12" r="5" />
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+          @chloepessoa
+        </a>
+      </div>
+
+      <div class="instagram__grid stagger-grid">
+        <div class="instagram__item">
+          <img src="public/images/catalogo_1.jpeg" alt="Instagram post" class="instagram__image" loading="lazy">
+          <div class="instagram__item-overlay">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
+          </div>
+        </div>
+        <div class="instagram__item">
+          <img src="public/images/catalogo_3.jpeg" alt="Instagram post" class="instagram__image" loading="lazy">
+          <div class="instagram__item-overlay">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
+          </div>
+        </div>
+        <div class="instagram__item">
+          <img src="public/images/catalogo_5.jpeg" alt="Instagram post" class="instagram__image" loading="lazy">
+          <div class="instagram__item-overlay">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
+          </div>
+        </div>
+        <div class="instagram__item">
+          <img src="public/images/catalogo_8.jpeg" alt="Instagram post" class="instagram__image" loading="lazy">
+          <div class="instagram__item-overlay">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer class="footer" id="contato">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">Chloe <span>Pessoa</span></div>
+          <p class="footer__description">Elegância atemporal para a mulher contemporânea. Moda feminina com design
+            minimalista, qualidade excepcional e compromisso com a sustentabilidade.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/chloepessoa/" target="_blank" rel="noopener noreferrer"
+              class="footer__social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="5" />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Pinterest">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10" />
+                <path
+                  d="M12 6c-3 0-6 2-6 5.5 0 2 1 3.5 2.5 4-.1-.4 0-1 .1-1.5l.8-3s-.2-.4-.2-1c0-1 .6-1.7 1.3-1.7.6 0 .9.5.9 1 0 .6-.4 1.6-.6 2.5-.2.7.3 1.2 1 1.2 1.2 0 2-1.6 2-3.5 0-1.4-1-2.5-2.8-2.5-2 0-3.3 1.5-3.3 3.2 0 .6.2 1 .4 1.3.1.1.1.2 0 .4l-.2.6c0 .2-.1.2-.3.1-1-.4-1.4-1.5-1.4-2.7 0-2 1.7-4.5 5.2-4.5 2.8 0 4.6 2 4.6 4.2 0 2.8-1.6 5-3.8 5-.8 0-1.5-.4-1.7-.9l-.5 1.8c-.2.6-.5 1.2-.8 1.7" />
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 12a4 4 0 1 0 4 4V4c1 2 3 3 5 3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h6 class="footer__column-title">Navegação</h6>
+          <a href="#hero" class="footer__link">Início</a>
+          <a href="#catalogo" class="footer__link">Catálogo</a>
+          <a href="#contato" class="footer__link">Contato</a>
+        </div>
+
+        <div>
+          <h6 class="footer__column-title">Informações</h6>
+          <a href="#" class="footer__link">Tabela de Medidas</a>
+          <a href="#" class="footer__link">Política de Trocas</a>
+          <a href="#" class="footer__link">Frete e Entrega</a>
+          <a href="#" class="footer__link">FAQ</a>
+        </div>
+
+        <div>
+          <h6 class="footer__column-title">Contato</h6>
+          <a href="mailto:contato@chloepessoa.com.br" class="footer__link">contato@chloepessoa.com.br</a>
+          <a href="https://api.whatsapp.com/send?phone=5562996854293" class="footer__link" target="_blank" rel="noopener noreferrer">+55 (62) 99685-4293</a>
+          <span class="footer__link">Goiás, GO — Brasil</span>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span class="footer__copyright">© <span data-year></span> Chloe Pessoa. Todos os direitos reservados.</span>
+        <div class="footer__bottom-links">
+          <a href="#" class="footer__bottom-link">Política de Privacidade</a>
+          <a href="#" class="footer__bottom-link">Termos de Uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://api.whatsapp.com/send?phone=5562996854293" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
